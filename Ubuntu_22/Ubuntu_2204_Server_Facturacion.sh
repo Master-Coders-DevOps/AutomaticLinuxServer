@@ -94,7 +94,7 @@ sudo apt-get install fail2ban -y;
     # $new_user
         sudo mkdir /home/$new_user/Execute &&
         # This repository must be PUBLIC (to avoid the use of credentials)
-        sudo git clone https://github.com/pablodonayre/Execute_Docker.git docker &&
+        sudo git clone https://github.com/Master-Coders-DevOps/Execute_Docker docker &&
         sudo mv docker /home/$new_user/Execute/ &&
         sudo chmod -R 755 /home/$new_user/Execute &&
         sudo chown -R $new_user:$new_user /home/$new_user/Execute &&
